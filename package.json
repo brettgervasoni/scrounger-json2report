@@ -1,0 +1,13 @@
+{
+  "name": "scrounger-json2report-cli",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bin": {
+    "json2report": "bin/json2report"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
