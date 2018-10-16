@@ -19,8 +19,8 @@ module.exports = () => {
 	json.forEach(function(entry) {
 		console.log('--- '+entry.severity+' - '+entry.title);
 
+		entry.details = entry.details.replace(/\* \//g, '/'); //printing files
 		entry.details = entry.details.replace(/\n \* L/g, '\n  * L'); //printing source code
-		entry.details = entry.details.replace(/\n\* \//g, '\n/'); //printing files
 		entry.details = entry.details.replace(/ \: </g, ':\n<'); //fixing formatting errors
 
 		if (entry.details == '') {
