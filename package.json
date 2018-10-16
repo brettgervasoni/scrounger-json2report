@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "bin": {
-    "json2report": "bin/json2report"
+    "scrounger-json2report": "bin/scrounger-json2report"
   },
   "scripts": {},
   "devDependencies": {},
